@@ -1,0 +1,5 @@
+aws_region           = "ap-south-1"
+vpc_cidr             = "10.0.0.0/16"
+az_count             = 2
+subnet_count         = 2
+instances_per_subnet = 1

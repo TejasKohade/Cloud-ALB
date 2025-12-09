@@ -1,0 +1,86 @@
+# ------------------------------------------------------------------------------
+# Terraform local state files
+# ------------------------------------------------------------------------------
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Ignore crash logs
+crash.log
+crash.*.log
+
+# Ignore terraform plan files
+*.plan
+*.tfplan
+
+# Ignore variables files (optional but recommended if containing secrets)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# ------------------------------------------------------------------------------
+# Terraform directories
+# ------------------------------------------------------------------------------
+.terraform/
+**/.terraform/
+
+# ------------------------------------------------------------------------------
+# Local environment directories (envs)
+# ------------------------------------------------------------------------------
+envs/*/terraform.tfstate
+envs/*/terraform.tfstate.backup
+
+# ------------------------------------------------------------------------------
+# Sensitive private keys (never commit)
+# ------------------------------------------------------------------------------
+*.pem
+*.key
+*.pub
+
+# ------------------------------------------------------------------------------
+# OS-generated files
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
+*.swp
+
+# ------------------------------------------------------------------------------
+# IDE-specific folders
+# ------------------------------------------------------------------------------
+# VSCode
+.vscode/
+.history/
+.settings/
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+out/
+
+# Mac Finder
+.fseventsd
+.Spotlight-V100
+.Trashes
+
+# ------------------------------------------------------------------------------
+# Log files
+# ------------------------------------------------------------------------------
+*.log
+
+# Node/NPM (if any automation scripts exist)
+node_modules/
+
